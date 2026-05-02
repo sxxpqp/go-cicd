@@ -11,7 +11,7 @@ func main() {
 
 	r.GET("/", func(c *gin.Context) {
 		c.JSON(http.StatusOK, gin.H{
-			"message": "Hello from Go Gin CI/CD Example!",
+			"message": "来自 Go Gin CI/CD 示例的问候！",
 		})
 	})
 
